@@ -1,11 +1,8 @@
 package tester;
 
-import adapter.class_adapter_pattern.ClientClassAdapterExample;
-import adapter.pattern_challenge.ClientAdapterPatternChallenge;
-import adapter.pattern_one.ClientAdapterExample;
-import adapter.pattern_two.ClientAdapterExampleTwo;
-import bridge.challenge.ClientBridgePatternChallenge;
-import bridge.example.ClientBridgePatternExample;
+import composite.challenge.UniversityComposition;
+import composite.example.Company;
+import composite.example_two.Company2;
 
 /**
  * Testing structural patterns, their examples and challenges.
@@ -32,7 +29,14 @@ public class StructuralPatternsTester {
         // run the bridge challenge
 //        ClientBridgePatternChallenge.bridgeChallenge();
 
+        // run the composite example
+//        Company.compositeExample();
 
+        // run the second composite example
+//        Company2.compositeExampleTwo();
+
+        // run the composite challenge
+//        UniversityComposition.compositeChallenge();
 
 
 

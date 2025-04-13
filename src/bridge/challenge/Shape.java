@@ -2,7 +2,7 @@ package bridge.challenge;
 
 // abstraction
 public abstract class Shape {
-    protected int border = 0;
+    protected int border;
     protected IColor color;
 
     protected Shape(IColor color, int border){
