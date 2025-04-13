@@ -1,6 +1,6 @@
 package tester;
 
-public class HelperMethods {
+public final class HelperMethods {
 
     private HelperMethods(){}
 
