@@ -1,8 +1,12 @@
 package tester;
 
+import adapter.pattern_one.ClientAdapterExample;
 import composite.challenge.UniversityComposition;
 import composite.example.Company;
 import composite.example_two.Company2;
+import decorator.challenge.ClientDecoratorChallenge;
+import decorator.example_one.ClientDecoratorExampleOne;
+import decorator.example_two.ClientDecoratorExampleTwo;
 
 /**
  * Testing structural patterns, their examples and challenges.
@@ -38,7 +42,14 @@ public class StructuralPatternsTester {
         // run the composite challenge
 //        UniversityComposition.compositeChallenge();
 
+        // run the decorator example one
+//        ClientDecoratorExampleOne.decoratorExampleOne();
 
+        // run the decorator example two
+//        ClientDecoratorExampleTwo.decoratorExampleTwo();
+
+        // run the decorator challenge
+//        ClientDecoratorChallenge.decoratorChallenge();
 
     }
 
