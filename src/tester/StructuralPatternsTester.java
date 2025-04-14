@@ -7,6 +7,8 @@ import composite.example_two.Company2;
 import decorator.challenge.ClientDecoratorChallenge;
 import decorator.example_one.ClientDecoratorExampleOne;
 import decorator.example_two.ClientDecoratorExampleTwo;
+import facade.challenge.ClientFacadeChallange;
+import facade.example.ClientFacadeExample;
 
 /**
  * Testing structural patterns, their examples and challenges.
@@ -50,6 +52,12 @@ public class StructuralPatternsTester {
 
         // run the decorator challenge
 //        ClientDecoratorChallenge.decoratorChallenge();
+
+        // run the facade example
+//        ClientFacadeExample.facadeExample();
+
+        // run the facade challenge
+//        ClientFacadeChallange.facadeChallenge();
 
     }
 
