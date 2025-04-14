@@ -2,8 +2,8 @@ package facade.challenge;
 
 import tester.HelperMethods;
 
-public final class ClientFacadeChallange {
-    private ClientFacadeChallange(){}
+public final class ClientFacadeChallenge {
+    private ClientFacadeChallenge(){}
 
     public static void facadeChallenge(){
         HelperMethods.exampleSeparator();

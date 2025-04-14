@@ -1,14 +1,6 @@
 package tester;
 
-import adapter.pattern_one.ClientAdapterExample;
-import composite.challenge.UniversityComposition;
-import composite.example.Company;
-import composite.example_two.Company2;
-import decorator.challenge.ClientDecoratorChallenge;
-import decorator.example_one.ClientDecoratorExampleOne;
-import decorator.example_two.ClientDecoratorExampleTwo;
-import facade.challenge.ClientFacadeChallange;
-import facade.example.ClientFacadeExample;
+import facade.challenge.ClientFacadeChallenge;
 
 /**
  * Testing structural patterns, their examples and challenges.
@@ -57,7 +49,7 @@ public class StructuralPatternsTester {
 //        ClientFacadeExample.facadeExample();
 
         // run the facade challenge
-//        ClientFacadeChallange.facadeChallenge();
+        ClientFacadeChallenge.facadeChallenge();
 
     }
 
