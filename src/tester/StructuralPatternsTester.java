@@ -1,13 +1,15 @@
 package tester;
 
 import facade.challenge.ClientFacadeChallenge;
+import flyweight.challenge.ClientFlyweightChallenge;
+import flyweight.example.ClientFlyweightExample;
 
 /**
  * Testing structural patterns, their examples and challenges.
  */
 public class StructuralPatternsTester {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         // run the adapter example
 //        ClientAdapterExample.adapterExample();
@@ -49,7 +51,13 @@ public class StructuralPatternsTester {
 //        ClientFacadeExample.facadeExample();
 
         // run the facade challenge
-        ClientFacadeChallenge.facadeChallenge();
+//        ClientFacadeChallenge.facadeChallenge();
+
+        // run the flyweight example
+//        ClientFlyweightExample.flyweightExample();
+
+        // run the flyweight challenge
+        ClientFlyweightChallenge.flyweightChallenge();
 
     }
 
