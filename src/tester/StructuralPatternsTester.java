@@ -3,6 +3,8 @@ package tester;
 import facade.challenge.ClientFacadeChallenge;
 import flyweight.challenge.ClientFlyweightChallenge;
 import flyweight.example.ClientFlyweightExample;
+import proxy.challenge.ClientProxyChallenge;
+import proxy.example.ClientProxyExample;
 
 /**
  * Testing structural patterns, their examples and challenges.
@@ -57,7 +59,13 @@ public class StructuralPatternsTester {
 //        ClientFlyweightExample.flyweightExample();
 
         // run the flyweight challenge
-        ClientFlyweightChallenge.flyweightChallenge();
+//        ClientFlyweightChallenge.flyweightChallenge();
+
+        // run the proxy example
+//        ClientProxyExample.proxyExample();
+
+        // run the proxy challenge
+//        ClientProxyChallenge.proxyChallenge();
 
     }
 
